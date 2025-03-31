@@ -10,7 +10,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
 // components
-import MealDetails from './MealDetails';
+import MealDetails from '../MealDetails';
 
 export default function Meal({
   id,
