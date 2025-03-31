@@ -40,7 +40,7 @@ export default function MealDetailScreen({ route, navigation }) {
         );
       },
     });
-  }, [navigation, changeFavoriteStatusHandler]);
+  }, [ids]);
 
   return (
     <ScrollView style={styles.rootContainer}>
